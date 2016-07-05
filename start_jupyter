@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+bundle exec iruby register
+cp ruby_kernel.json .local/share/jupyter/kernels/ruby/kernel.json
+
 pgcontents init -l $DATABASE_URL --no-prompt
 
 jupyter notebook \

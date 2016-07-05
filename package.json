@@ -1,0 +1,7 @@
+{
+  "name": "jupyter-interfirm",
+  "author": "marocchino",
+  "engines": {
+    "node": ">=6.2.0"
+  }
+}
